@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://hujinCN.github.io/sitemap.xml
