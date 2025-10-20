@@ -15,7 +15,7 @@
       institution:  School of Computer Science and Engineering, Beihang University, Beijing, China.
       year: 2023 - 
       description:
-          - "Advisor: Prof. Xianglong Liu, Prof. Xu Ke and Dr. Jiakai Wang."
+          - "Advisor: Prof. Xianglong Liu, Prof. Ke Xu and Dr. Jiakai Wang."
           - "Research conducted in Zhongguancun Laboratory and State Key Laboratory of Complex & Critical Software Environment."
           # - title: Awards:
         # - Description 2.
@@ -93,7 +93,7 @@
         - Outstanding Graduates, Beijing, China.
     - year: 2019-2021
       items:
-        - Second Prize, National Contest in Compiler Design and Optimization.
+        - Second Prize, National Contest in Compile System Design and Optimization.
         - Silver Medal, ICPC Shanghai Regional Contest.
         - Merit Student, Beihang University (Top 5%).
 
