@@ -1,4 +1,23 @@
 ---
+There are several custom bibtex keywords that you can use to affect how the entries are displayed on the webpage:
+
+- `abbr`: Adds an abbreviation to the left of the entry. You can add links to these by creating a venue.yaml-file in the \_data folder and adding entries that match.
+- `abstract`: Adds an "Abs" button that expands a hidden text field when clicked to show the abstract text
+- `altmetric`: Adds an [Altmetric](https://www.altmetric.com/) badge (Note: if DOI is provided just use `true`, otherwise only add the altmetric identifier here - the link is generated automatically)
+- `annotation`: Adds a popover info message to the end of the author list that can potentially be used to clarify superscripts. HTML is allowed.
+- `arxiv`: Adds a link to the Arxiv website (Note: only add the arxiv identifier here - the link is generated automatically)
+- `bibtex_show`: Adds a "Bib" button that expands a hidden text field with the full bibliography entry
+- `blog`: Adds a "Blog" button redirecting to the specified link
+- `code`: Adds a "Code" button redirecting to the specified link
+- `dimensions`: Adds a [Dimensions](https://www.dimensions.ai/) badge (Note: if DOI or PMID is provided just use `true`, otherwise only add the Dimensions' identifier here - the link is generated automatically)
+- `html`: Inserts an "HTML" button redirecting to the user-specified link
+- `pdf`: Adds a "PDF" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `poster`: Adds a "Poster" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `slides`: Adds a "Slides" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `website`: Adds a "Website" button redirecting to the specified link
+
+
 ---
 
 @string{aps = {American Physical Society,}}
@@ -12,8 +31,9 @@
   abbr={TPAMI submitted},
   selected = true,
   bibtex_show  = {true},
-  year={2025},
+  year={2024},
   preview = {DynamicPAE.png},
+  arxiv={2412.08053}
 }
 % annotation={Submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence, Minor Revision.}
 
@@ -29,6 +49,7 @@
   selected = true,
   bibtex_show  = {true},
   url={https://nips.cc/virtual/2025/poster/116399},
+  website={https://semanticae.github.io/},
   preview = {insur.gif},
 }
 
@@ -44,6 +65,7 @@
   abbr={ICASSP 2025},
   bibtex_show={true},
   selected = true,
+  html = {https://ieeexplore.ieee.org/document/10889070}
 }
 
   preview = {ICASSP2025.png}
@@ -57,6 +79,7 @@
   url          = {https://doi.org/10.48550/arXiv.2311.01473},
   doi          = {10.48550/ARXIV.2311.01473},
   eprinttype    = {arXiv},
+  arxiv       = {2311.01473},
   eprint       = {2311.01473},
   timestamp    = {Tue, 07 Nov 2023 18:17:14 +0100},
   biburl       = {https://dblp.org/rec/journals/corr/abs-2311-01473.bib},
@@ -72,6 +95,9 @@
   title={Evaluating the practicality of learned image compression},
   author={Yu, Hongjiu and Sun, Qiancheng and Hu, Jin and Xue, Xingyuan and Luo, Jixiang and He, Dailan and Li, Yilong and Wang, Pengbo and Wang, Yuanyuan and Dai, Yaxu and others},
   journal={arXiv preprint arXiv:2207.14524},
+  arxiv={2207.14524},
+  abbr = {Technical report},
+  bibtex_show={true},
   year={2022}
 }
 
