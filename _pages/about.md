@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Beihang University
+subtitle: Zhongguancun Laboratory & Beihang University
 # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 # profile:
@@ -32,8 +32,7 @@ latest_posts:
 
 
 I am currently a PhD student (2023-) at Zhongguancun Laboratory and State Key Laboratory of Complex & Critical Software Environment (SKLCCSE), Beihang University, advised by Prof. [Xianglong Liu](https://xlliu-beihang.github.io/), Prof. [Ke Xu](https://scse.buaa.edu.cn/wyh_content_new.jsp?urltype=news.NewsContentUrl&wbtreeid=1078&wbnewsid=2655) and Dr. [Jiakai Wang](https://jiakaiwangcn.github.io/).
-My current research focuses on Physical Adversarial Machine Learning and Generative Modeling, aiming to uncover the dark matter in AI systems and introduce new design paradigms for AI safety problems.
-
+My current research focuses on Physical Adversarial Machine Learning and Generative Modeling, aiming to uncover the dark matter in AI systems and introduce new design paradigms for AI safety problems. I have been a Program Committee member of the 5th workshop AdvML@CVPR 2025.
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
