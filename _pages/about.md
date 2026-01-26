@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -32,7 +32,12 @@ latest_posts:
 
 
 I am currently a PhD student (2023-) at Zhongguancun Laboratory and State Key Laboratory of Complex & Critical Software Environment (SKLCCSE), Beihang University, advised by Prof. [Xianglong Liu](https://xlliu-beihang.github.io/), Prof. [Ke Xu](https://scse.buaa.edu.cn/wyh_content_new.jsp?urltype=news.NewsContentUrl&wbtreeid=1078&wbnewsid=2655) and Dr. [Jiakai Wang](https://jiakaiwangcn.github.io/).
-My current research focuses on Physical Adversarial Machine Learning and Generative Modeling, aiming to uncover the dark matter in AI systems and introduce new design paradigms for AI safety problems. I have been a Program Committee member of the 5th workshop AdvML@CVPR 2025.
+My current research focuses on Physical Adversarial Machine Learning and Visual Generative Modeling, aiming to uncover the dark matter in AI systems and introduce new design paradigms for Trustworthy AI.
+
+As a student research assistant at Zhongguancun Laboratory, I co-lead the <i>Inversive Generation Group</i>. Our work focuses on the generation of adversarial examples for physical adversarial machine learning and safety testing. We will further explore the mechanistic interpretability and scalable applications of physical adversarial examples.
+
+
+
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
