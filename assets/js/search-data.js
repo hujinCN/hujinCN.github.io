@@ -14,7 +14,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{
+            },},{id: "news-we-are-organizing-the-workshop-the-6th-workshop-of-adversarial-machine-learning-on-computer-vision-safety-of-vision-language-agents-at-cvpr-2026-june-3-or-june-4-the-workshop-will-feature-distinguished-paper-awards-and-competition-prizes-we-warmly-welcome-your-attention-and-submissions",
+          title: 'We are organizing the workshop The 6th Workshop of Adversarial Machine Learning on...',
+          description: "",
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
