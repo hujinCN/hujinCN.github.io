@@ -34,7 +34,7 @@ latest_posts:
 I am currently a PhD student (2023-) at Zhongguancun Laboratory and State Key Laboratory of Complex & Critical Software Environment (SKLCCSE), Beihang University, advised by Prof. [Xianglong Liu](https://xlliu-beihang.github.io/), Prof. [Ke Xu](https://scse.buaa.edu.cn/wyh_content_new.jsp?urltype=news.NewsContentUrl&wbtreeid=1078&wbnewsid=2655) and Dr. [Jiakai Wang](https://jiakaiwangcn.github.io/).
 My current research focuses on Physical Adversarial Machine Learning and Visual Generative Modeling, aiming to uncover the dark matter in AI systems and introduce new design paradigms for Trustworthy AI.
 
-As a student research assistant at Zhongguancun Laboratory, I co-lead the <i>Inversive Generation Group</i>. Our work focuses on the generation of adversarial examples for physical adversarial machine learning and safety testing. We will further explore the mechanistic interpretability and scalable applications of physical adversarial examples.
+As a student research assistant at Zhongguancun Laboratory, I co-lead the <i>Inversive Generation</i> student research group. Our work focuses on the generation of adversarial examples for physical adversarial machine learning and safety testing. We will further explore the mechanistic interpretability and scalable applications of physical adversarial examples.
 
 
 
