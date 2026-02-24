@@ -14,7 +14,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/CV/";
+            window.location.href = "/assets/pdf/JinHu_AcademicCV202602.pdf";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
