@@ -34,7 +34,7 @@ latest_posts:
 
 
 I am currently a PhD student (2023-) at Zhongguancun Laboratory (ZGCLab) and State Key Laboratory of Complex & Critical Software Environment, Beihang University, advised by Prof. [Xianglong Liu](https://xlliu-beihang.github.io/), Prof. [Ke Xu](https://scse.buaa.edu.cn/wyh_content_new.jsp?urltype=news.NewsContentUrl&wbtreeid=1078&wbnewsid=2655) and Dr. [Jiakai Wang](https://jiakaiwangcn.github.io/).
-My research focuses on <b>Physical Adversarial Machine Learning and Visual Generative Modeling</b>, aiming to uncover the dark matter in AI systems and introduce new design paradigms for Trustworthy AI. 
+My research focuses on <b>Physical Adversarial Machine Learning and Visual Generative Modeling</b>, aiming to uncover the dark matter in AI systems and introduce new design paradigms for Trustworthy AI. I plan to graduate around the end of 2027.
 
 In ZGCLab, our group centers on developing physical adversarial examples (PAEs) to evaluate and enhance the safety of vision models for applications like autonomous driving. We will further explore the mechanistic interpretability and scalable applications of PAEs.
 
