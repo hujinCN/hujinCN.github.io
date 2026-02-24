@@ -5,8 +5,6 @@
       value: Jin Hu 
     - name: Year of Birth
       value: 2000
-    - name: Languages
-      value: Chinese, English 
 
 - title: Education
   type: time_table
@@ -27,7 +25,7 @@
       institution:  School of Computer Science and Engineering, Beihang University, Beijing, China.
       year: 2022-2023
       description:
-          - "Advisor: Prof. Angsheng Li and Prof. Hao Peng" 
+          - "Advisor: Prof. Angsheng Li" 
           - "Research conducted in State Key Laboratory of Complex & Critical Software Environment."
     
     - title: B.E. student
@@ -35,7 +33,6 @@
       year: 2018-2022
       description:
           - Beijing joint cultivation program, courses done in Beihang University.
-          # final year's courses done in Beijing University of Technology.
           - B.Eng (Hons) in Computer Science and Technology, Beijing University of Technology.
           # - title: Awards:
         # - Description 2.
@@ -44,41 +41,6 @@
         #     - Sub-description 1.
         #     - Sub-description 2.
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Student Assistant Researcher
-      institution: Zhongguancun Laboratory, Beijing, China.
-      year: 2024 -  
-      description:
-        - 'AI Safety Projects. Research team leader: <a href="https://jiakaiwangcn.github.io">Jiakai Wang</a>.'
-        - title: "Co-authors:"
-          contents:
-            - Junkai Zhang (Master student, Tsinghua University)
-            - Linna Jing  (Master student, Beihang University)
-            - <a href="https://lsyycf.github.io">Haolin Li</a> (Undergraduate intern student, Beihang University)
-            
-            # - Zhengquan Sun (PhD student, Beihang University)
-
-
-    - title: Research Intern
-      institution: Sensetime Research, Beijing, China.
-      year: 2021-2022
-      description:
-        - ' AI ISP & Codec group. Mentor: <a href="https://yanwang202199.github.io">Yan Wang</a>.'
-
-    # - title: Student Teaching Assistant
-    #   institution:  Beihang University, Beijing, China.
-    #   year: 2019-2020
-    #   description: 
-    #     - 'C Programming & Data Structure. Teacher: <a href="https://scse.buaa.edu.cn/wyh_content_new.jsp?urltype=news.NewsContentUrl&wbtreeid=1079&wbnewsid=7274">Ying Li</a>.'
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Awards
   type: time_table
