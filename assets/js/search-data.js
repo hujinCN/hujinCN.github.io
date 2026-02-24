@@ -17,6 +17,9 @@ ninja.data = [{
             },},{id: "news-we-are-organizing-the-workshop-the-6th-workshop-of-adversarial-machine-learning-on-computer-vision-safety-of-vision-language-agents-at-cvpr-2026-june-3-or-june-4-the-workshop-will-feature-distinguished-paper-awards-and-competition-prizes-we-warmly-welcome-your-attention-and-submissions",
           title: 'We are organizing the workshop The 6th Workshop of Adversarial Machine Learning on...',
           description: "",
+          section: "News",},{id: "news-one-paper-published-by-tpami-2026-stemming-from-my-first-research-project-as-the-lead-author-this-work-dynamicpae-investigates-and-addresses-the-training-challenges-inherent-in-the-end-to-end-conditional-generation-of-physical-adversarial-examples-code-is-now-available-at-https-github-com-hujincn-dynamicpae",
+          title: 'One paper published by TPAMI 2026. Stemming from my first research project as...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
