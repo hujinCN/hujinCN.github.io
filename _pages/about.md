@@ -2,13 +2,15 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Zhongguancun Laboratory & Beihang University
+
+subtitle: "Zhongguancun Laboratory & Beihang University.  Email: hujin at buaa.edu.cn"
 # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
-# profile:
-#   align: right
-#   image: prof_pic.jpg
-#   image_circular: true # crops the image to make it circular
+profile:
+  align: right
+  image: jinhu_202512.jpg
+
+  image_circular: true # crops the image to make it circular
   # more_info: >
   #   <p>Haidian, Beijing, China</p>
 

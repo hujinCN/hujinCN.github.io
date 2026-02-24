@@ -205,6 +205,14 @@ ul.task-list input[type="checkbox"] {
       margin: 0;
     }
   }
+  
+  // 头像图片样式调整 - 使用rem单位替代px
+  img {
+    max-width: 10rem; // 200px转换为12.5rem (假设1rem=16px)
+    height: auto;
+    display: block;
+    margin: 0 auto; // 居中显示
+  }
 }
 
 .profile.float-right {
@@ -217,12 +225,18 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 25%; // 从30%减小到25%
 
     .address {
       p {
         display: block;
       }
+    }
+    
+    // 在大屏幕上进一步限制头像大小
+    img {
+      max-width: 11.25rem; // 180px转换为11.25rem
+      margin: 0 auto; // 保持居中
     }
   }
 }
