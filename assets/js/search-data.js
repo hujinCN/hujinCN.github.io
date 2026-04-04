@@ -27,6 +27,9 @@ ninja.data = [{
           section: "News",},{id: "news-one-paper-published-by-tpami-2026-this-work-dynamicpae-investigates-and-addresses-the-training-challenges-inherent-in-the-end-to-end-conditional-generation-of-physical-adversarial-examples-paes-code-is-now-available-at-github",
           title: 'One paper published by TPAMI 2026. This work (DynamicPAE) investigates and addresses the...',
           description: "",
+          section: "News",},{id: "news-two-co-authored-papers-on-the-3d-adversarial-attacks-submitted-to-acm-multimedia-2026",
+          title: 'Two co-authored papers on the 3D adversarial attacks submitted to ACM Multimedia 2026....',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
