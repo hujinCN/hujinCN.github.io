@@ -8,7 +8,7 @@ subtitle: "Zhongguancun Laboratory & Beihang University.  Email: hujin at buaa.e
 
 profile:
   align: right
-  image: jinhu_202512.jpg
+  image: hujin.jpg
 
   image_circular: true # crops the image to make it circular
   # more_info: >
