@@ -11,3 +11,13 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# Unreleased research belongs outside this public repository.
+/AGENT_README.md
+/_drafts/
+/private/
+
+# Personal CV materials are maintained outside the public website.
+/_pages/cv.md
+/_data/cv.yml
+/assets/pdf/JinHu_AcademicCV*.pdf

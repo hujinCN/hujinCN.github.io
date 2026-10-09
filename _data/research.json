@@ -1,0 +1,29 @@
+[
+  {
+    "id": "miugs",
+    "title": "MiuGS: Modality-Integrated Unified Gaussian Representation for Physical Adversarial Object Generation in 3D Detection",
+    "group": "current",
+    "homepage": false,
+    "order": 2,
+    "status_label": "ACM MM 2026 · Accepted · Manuscript not yet public",
+    "topic": "Physical adversarial learning",
+    "summary": "Research on a unified multimodal representation for physical adversarial object generation. The project repository is available; the manuscript is not yet public.",
+    "links": [
+      {
+        "label": "Project repository",
+        "url": "https://github.com/qjfysun/MiuGS"
+      }
+    ]
+  },
+  {
+    "id": "prcv-oral",
+    "title": "Dual Bias Suppressed Cross-scale Physical Adversarial Patch against Lane Detection",
+    "group": "collaboration",
+    "homepage": false,
+    "order": 3,
+    "status_label": "PRCV 2026 · Oral accepted · Third author · Manuscript not yet public",
+    "topic": "Collaborative research",
+    "summary": "A collaborative paper accepted for an oral presentation at PRCV 2026. The manuscript and project details will be added after public release.",
+    "links": []
+  }
+]

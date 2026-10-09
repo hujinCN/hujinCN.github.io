@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    {% if page.template_example %}<meta name="robots" content="noindex, follow">{% endif %}
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}">
+  </head>
+  <body class="research-site">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+      <nav aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/research/' | relative_url }}" {% if page.url contains '/research/' %}aria-current="page"{% endif %}>Research</a>
+        <a href="{{ '/publications/' | relative_url }}" {% if page.url contains '/publications/' %}aria-current="page"{% endif %}>Publications</a>
+      </nav>
+    </header>
+    <main id="main" class="research-main">{{ content }}</main>
+    <footer class="site-footer">
+      <span>{{ site.title | escape }}</span>
+      <span>Understanding model failures &middot; Developing reliable AI</span>
+      <a href="{{ '/' | relative_url }}">Personal homepage</a>
+    </footer>
+    {% if page.math and site.enable_math %}
+      <script src="{{ '/assets/js/mathjax-setup.js' | relative_url }}"></script>
+      <script defer id="MathJax-script" src="{{ site.third_party_libraries.mathjax.url.js }}" integrity="{{ site.third_party_libraries.mathjax.integrity.js }}" crossorigin="anonymous"></script>
+    {% endif %}
+  </body>
+</html>

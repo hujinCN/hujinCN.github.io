@@ -92,7 +92,7 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false # Notes currently lists all research_note posts without pagination
 
 related_blog_posts:
   enabled: false
@@ -172,6 +172,11 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - _templates/
+  - _pages_templates/
+  - _posts_template/
+  - _projects_template/
+  - _news_templates/
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md

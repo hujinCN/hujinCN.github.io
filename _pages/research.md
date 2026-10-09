@@ -1,0 +1,83 @@
+---
+layout: research_base
+title: Research
+description: Generative evaluation and adaptive optimization for trustworthy visual and multimodal AI.
+permalink: /research/
+nav: true
+nav_order: 1
+---
+
+<header class="page-heading">
+  <p class="eyebrow">Research / Jin Hu</p>
+  <h1>Understanding failures.<br>Developing reliable AI.</h1>
+  <p class="deck">My research advances trustworthy AI through generative evaluation and adaptive optimization. I study how visual and multimodal models respond to changing scenes, semantic constraints, and physical conditions.</p>
+</header>
+
+<section class="research-intro" aria-labelledby="research-approach">
+  <h2 id="research-approach">A shared question</h2>
+  <div><p>How can we discover meaningful model failures while controlling the conditions that produce them? My work connects the generation of evaluation examples with the feedback used to optimize them.</p>
+  <p>Two first-author papers establish complementary foundations: <a href="#dynamicpae">DynamicPAE</a> improves feedback during generator training, while <a href="#semanticae">InSUR</a> improves guidance during diffusion inference. Their collaborative extensions explore physical perception and consistent observations across sensing modalities.</p></div>
+</section>
+
+<section class="research-section" aria-labelledby="foundational-work">
+  <div class="section-heading"><h2 id="foundational-work">Foundational work</h2><span>First-author publications</span></div>
+  <article class="research-work" id="dynamicpae">
+    <div class="work-summary">
+      <p class="eyebrow">01 / Learning from noisy feedback</p>
+      <h3>DynamicPAE</h3><p class="status">IEEE TPAMI 2026 · First author</p>
+      <p class="work-title">Generating Scene-Aware Physical Adversarial Examples in Real-Time</p>
+      <div class="work-links"><a class="text-link" href="https://ieeexplore.ieee.org/document/11219170" rel="noopener noreferrer">Paper ↗</a><a class="text-link" href="https://github.com/hujinCN/DynamicPAE" rel="noopener noreferrer">Code ↗</a></div>
+    </div>
+    <div class="work-detail">
+      <p>Physical transformations introduce noisy feedback when training an adversarial generator. DynamicPAE learns to generate an example conditioned on the observed scene, making scene adaptation possible through a single forward pass.</p>
+      <dl class="method-points">
+        <dt>Residual-guided training</dt><dd>An auxiliary reconstruction task supplies richer feedback and helps the generator explore useful scene-dependent patterns.</dd>
+        <dt>Adaptive objective control</dt><dd>A controller based on loss-distribution skewness adjusts competing objectives, while conditional scene modeling accounts for incomplete observations and physical variation.</dd>
+      </dl>
+      <p class="work-connection">This work establishes a foundation in adaptive optimization for physical reliability evaluation.</p>
+    </div>
+  </article>
+  <article class="research-work" id="semanticae">
+    <div class="work-summary">
+      <p class="eyebrow">02 / Controlling generative inference</p>
+      <h3>InSUR</h3><p class="status">NeurIPS 2025 · First author</p>
+      <p class="work-title">Exploring Semantic-constrained Adversarial Example with Instruction Uncertainty Reduction</p>
+      <div class="work-links"><a class="text-link" href="https://arxiv.org/abs/2510.22981" rel="noopener noreferrer">Paper ↗</a><a class="text-link" href="https://semanticae.github.io/" rel="noopener noreferrer">Project ↗</a><a class="text-link" href="https://github.com/lsyycf/SemanticAE" rel="noopener noreferrer">Code ↗</a></div>
+    </div>
+    <div class="work-detail">
+      <p>Language-guided evaluation requires generated examples to preserve the intended semantics while exposing recognition failures. The InSUR framework connects diffusion guidance, scene constraints, and semantic evaluation.</p>
+      <dl class="method-points">
+        <dt>Residual approximation for guidance</dt><dd>ResAdv-DDIM uses a short prediction of the future denoising outcome to stabilize current guidance during diffusion sampling.</dd>
+        <dt>Semantic and scene constraints</dt><dd>Spatial guidance and differentiable rendering extend generation to 2D images and 3D objects. Abstracted labels and paired examples relate evaluation to the intended semantics.</dd>
+      </dl>
+      <p class="work-connection">This work connects controllable visual generation with evaluation of visual and vision-language models.</p>
+    </div>
+  </article>
+</section>
+
+<section class="research-section" aria-labelledby="research-extensions">
+  <div class="section-heading"><h2 id="research-extensions">Collaborative extensions</h2><span>From foundations to new perception settings</span></div>
+  <div class="extension-grid">
+    <article class="extension-entry" id="miugs">
+      <p class="eyebrow">InSUR → Multimodal 3D perception</p>
+      <h3>MiuGS</h3><p class="status">ACM MM 2026 · Accepted · Second author</p>
+      <p class="work-title">Modality-Integrated Unified Gaussian Representation for Physical Adversarial Object Generation in 3D Detection</p>
+      <p>Building on the direction of generative 3D evaluation, MiuGS uses a shared 3D Gaussian representation to produce consistent camera and LiDAR observations of one physical object.</p>
+      <p class="release-status">Manuscript not yet public.</p>
+      <a class="text-link" href="https://github.com/qjfysun/MiuGS" rel="noopener noreferrer">Project repository ↗</a>
+    </article>
+    <article class="extension-entry" id="prcv-oral">
+      <p class="eyebrow">DynamicPAE → Physical perception</p>
+      <h3>PRCV Oral</h3><p class="status">PRCV 2026 · Oral accepted · Third author</p>
+      <p class="work-title">Dual Bias Suppressed Cross-scale Physical Adversarial Patch against Lane Detection</p>
+      <p>This collaborative work continues the physical adversarial research line represented by DynamicPAE, with a focus on lane detection.</p>
+      <p class="release-status">Manuscript not yet public.</p>
+    </article>
+  </div>
+</section>
+
+<section class="research-outlook" aria-labelledby="looking-ahead">
+  <p class="eyebrow">Looking ahead</p><h2 id="looking-ahead">From failure discovery to model understanding</h2>
+  <p>I am interested in connecting generative evaluation with mechanistic interpretability and the Physics of AI: how learning dynamics and internal computation shape generalization and vulnerability, and how that understanding can guide reliable model behavior.</p>
+  <a class="text-link" href="{{ '/publications/' | relative_url }}">Complete publication list →</a>
+</section>

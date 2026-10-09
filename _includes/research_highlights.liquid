@@ -1,0 +1,9 @@
+{% assign highlights = site.data.research | where: 'homepage', true | sort: 'order' %}
+{% for project in highlights %}
+  <div class="mb-3">
+    <h3 class="h5"><a href="{{ '/research/' | relative_url }}#{{ project.id }}">{{ project.title | escape }}</a></h3>
+    <p class="small mb-1">{{ project.status_label | escape }}</p>
+    <p>{{ project.summary | escape }}</p>
+  </div>
+{% endfor %}
+<p><a href="{{ '/research/' | relative_url }}">Research overview</a></p>

@@ -17,6 +17,7 @@ profile:
 # <p>555 your office number</p>
 # <p>123 your address street</p>
 selected_papers: true # includes a list of papers marked as "selected={true}"
+research_highlights: false
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -34,9 +35,8 @@ latest_posts:
 
 
 I am currently a PhD student (2023-) at Zhongguancun Laboratory (ZGCLab) and State Key Laboratory of Complex & Critical Software Environment, Beihang University, advised by Prof. [Xianglong Liu](https://xlliu-beihang.github.io/), Prof. [Ke Xu](https://scse.buaa.edu.cn/wyh_content_new.jsp?urltype=news.NewsContentUrl&wbtreeid=1078&wbnewsid=2655) and Dr. [Jiakai Wang](https://jiakaiwangcn.github.io/).
-My research focuses on <b>Physical Adversarial Machine Learning and Visual Generative Modeling</b>, aiming to uncover the dark matter in AI systems and introduce new design paradigms for Trustworthy AI. I plan to graduate around the end of 2027.
-
-In ZGCLab, our group centers on developing physical adversarial examples (PAEs) to evaluate and enhance the safety of vision models for applications like autonomous driving. We will further explore the mechanistic interpretability and scalable applications of PAEs.
+My research focuses on <b>Trustworthy AI</b>: understanding how AI systems fail and developing methods to evaluate and improve their reliability. I develop generative methods to expose model vulnerabilities and study the internal computations behind model behavior.
+Our work connects practical failure cases with generative modeling and studies of internal computation.
 
 
 
@@ -48,4 +48,3 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
  -->
-
