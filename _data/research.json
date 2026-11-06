@@ -5,10 +5,14 @@
     "group": "current",
     "homepage": false,
     "order": 2,
-    "status_label": "ACM MM 2026 · Accepted · Manuscript not yet public",
+    "status_label": "ACM MM 2026 · Published online",
     "topic": "Physical adversarial learning",
-    "summary": "Research on a unified multimodal representation for physical adversarial object generation. The project repository is available; the manuscript is not yet public.",
+    "summary": "Research on a unified multimodal representation for physical adversarial object generation. The paper is published in ACM Multimedia 2026, and the project repository is available.",
     "links": [
+      {
+        "label": "Paper / DOI",
+        "url": "https://doi.org/10.1145/3767308.3836481"
+      },
       {
         "label": "Project repository",
         "url": "https://github.com/qjfysun/MiuGS"

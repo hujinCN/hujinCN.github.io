@@ -60,10 +60,10 @@ nav_order: 1
   <div class="extension-grid">
     <article class="extension-entry" id="miugs">
       <p class="eyebrow">InSUR → Multimodal 3D perception</p>
-      <h3>MiuGS</h3><p class="status">ACM MM 2026 · Accepted · Second author</p>
+      <h3>MiuGS</h3><p class="status">ACM MM 2026 · Published online · Second author</p>
       <p class="work-title">Modality-Integrated Unified Gaussian Representation for Physical Adversarial Object Generation in 3D Detection</p>
       <p>Building on the direction of generative 3D evaluation, MiuGS uses a shared 3D Gaussian representation to produce consistent camera and LiDAR observations of one physical object.</p>
-      <p class="release-status">Manuscript not yet public.</p>
+      <a class="text-link" href="https://doi.org/10.1145/3767308.3836481" rel="noopener noreferrer">Paper / DOI ↗</a>
       <a class="text-link" href="https://github.com/qjfysun/MiuGS" rel="noopener noreferrer">Project repository ↗</a>
     </article>
     <article class="extension-entry" id="prcv-oral">
